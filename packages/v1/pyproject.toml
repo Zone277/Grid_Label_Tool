@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridlabeltool-v1"
+version = "1.0.0"
+description = "Packaged v1 of the GridLabelTool grid annotation GUI."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
+authors = [{ name = "zxw" }]
+license = { text = "MIT" }
+
+[project.scripts]
+gridlabeltool-v1 = "gridlabeltool_v1.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
