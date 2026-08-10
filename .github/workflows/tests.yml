@@ -1,0 +1,36 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  package-tests:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install v1 package
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e packages/v1
+
+      - name: Validate v1 entrypoint
+        run: python -m gridlabeltool_v1 --help
+
+      - name: Run v1 tests
+        run: python -m unittest discover -s packages/v1/tests -v
+
