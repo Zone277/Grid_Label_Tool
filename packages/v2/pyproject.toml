@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridlabeltool-v2"
+version = "2.0.0"
+description = "Packaged v2 of the GridLabelTool edit-and-continue GUI."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
+authors = [{ name = "zxw" }]
+license = { text = "MIT" }
+
+[project.scripts]
+gridlabeltool-v2 = "gridlabeltool_v2.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
