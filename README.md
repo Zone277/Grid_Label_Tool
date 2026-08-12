@@ -12,6 +12,7 @@ version folders, each with a preserved GUI app entry and testable core helpers.
 |---|---|---|
 | v1 | `packages/v1` | first-pass grid annotation |
 | v2 | `packages/v2` | edit and continue existing annotations |
+| v3 | `packages/v3` | enhanced layer and direction annotation |
 
 ## v1 Quick Check
 
@@ -28,6 +29,15 @@ python -m unittest discover -s tests -v
 cd packages\v2
 python -m pip install -e .
 python -m gridlabeltool_v2 --help
+python -m unittest discover -s tests -v
+```
+
+## v3 Quick Check
+
+```powershell
+cd packages\v3
+python -m pip install -e .
+python -m gridlabeltool_v3 --help
 python -m unittest discover -s tests -v
 ```
 
@@ -49,6 +59,10 @@ packages/
   v2/
     pyproject.toml
     src/gridlabeltool_v2/
+    tests/
+  v3/
+    pyproject.toml
+    src/gridlabeltool_v3/
     tests/
 ```
 

@@ -1,0 +1,34 @@
+{
+  "layer_colors": {
+    "单层": "#66cc66",
+    "多层": "#ff6666"
+  },
+  "direction_colors": {
+    "左上": "#f1c40f",
+    "上": "#f39c12",
+    "右上": "#e67e22",
+    "左": "#1abc9c",
+    "右": "#3498db",
+    "左下": "#9b59b6",
+    "下": "#e84393",
+    "右下": "#e74c3c"
+  },
+  "show_layer_overlay": true,
+  "show_direction_marks": true,
+  "show_text": false,
+  "layer_overlay_stipple": "gray12",
+  "transparent_layers": [
+    "单层"
+  ],
+  "prev_image_key": "<Left>",
+  "next_image_key": "<Right>",
+  "zoom_in_key": "<Control-equal>",
+  "zoom_out_key": "<Control-minus>",
+  "fit_image_key": "<f>",
+  "actual_size_key": "<KeyPress-1>",
+  "default_grid_mode": "pixel",
+  "default_block_w": 128,
+  "default_block_h": 128,
+  "default_rows": 3,
+  "default_cols": 4
+}
