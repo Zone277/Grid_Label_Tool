@@ -48,3 +48,18 @@ asset staging folder:
 ```text
 ..\github_release_assets\GridLabelTool-v3.0.0-windows-enhanced-grid-label-tool.exe
 ```
+
+## v4 Asset
+
+Upload the existing v4 Windows build to Release `v4.0.0` with this name:
+
+```text
+GridLabelTool-v4.0.0-windows-enhanced-grid-label-tool.exe
+```
+
+The local source asset is kept outside this repository in the local release
+asset staging folder:
+
+```text
+..\github_release_assets\GridLabelTool-v4.0.0-windows-enhanced-grid-label-tool.exe
+```
