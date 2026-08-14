@@ -1,0 +1,30 @@
+{
+  "layer_options": ["0", "1", "2", "3"],
+  "layer_descriptions": {
+    "0": "background",
+    "1": "single layer",
+    "2": "multiple layers without wrinkle",
+    "3": "multiple layers with wrinkle"
+  },
+  "layer_colors": {
+    "0": "#f28585",
+    "1": "#85f285",
+    "2": "#8585f2",
+    "3": "#f2c085"
+  },
+  "show_layer_overlay": true,
+  "layer_overlay_stipple": "gray25",
+  "transparent_layers": ["0"],
+  "prev_image_key": "<Left>",
+  "next_image_key": "<Right>",
+  "zoom_in_key": "<Control-equal>",
+  "zoom_out_key": "<Control-minus>",
+  "fit_image_key": "f",
+  "actual_size_key": "<Control-KeyPress-1>",
+  "default_grid_mode": "pixel",
+  "default_block_w": 128,
+  "default_block_h": 128,
+  "default_rows": 3,
+  "default_cols": 4
+}
+

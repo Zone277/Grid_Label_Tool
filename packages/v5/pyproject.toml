@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridlabeltool-v5"
+version = "5.0.0"
+description = "Packaged v5 of the GridLabelTool layer-only annotation GUI."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
+authors = [{ name = "zxw" }]
+license = { text = "MIT" }
+
+[project.scripts]
+gridlabeltool-v5 = "gridlabeltool_v5.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gridlabeltool_v5 = ["config.json"]
+

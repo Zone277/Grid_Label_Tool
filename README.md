@@ -14,6 +14,7 @@ version folders, each with a preserved GUI app entry and testable core helpers.
 | v2 | `packages/v2` | edit and continue existing annotations |
 | v3 | `packages/v3` | enhanced layer and direction annotation |
 | v4 | `packages/v4` | dynamic layer-label configuration |
+| v5 | `packages/v5` | layer-only annotation with numeric selection |
 
 ## v1 Quick Check
 
@@ -51,6 +52,15 @@ python -m gridlabeltool_v4 --help
 python -m unittest discover -s tests -v
 ```
 
+## v5 Quick Check
+
+```powershell
+cd packages\v5
+python -m pip install -e .
+python -m gridlabeltool_v5 --help
+python -m unittest discover -s tests -v
+```
+
 To launch a GUI from source:
 
 ```powershell
@@ -77,6 +87,10 @@ packages/
   v4/
     pyproject.toml
     src/gridlabeltool_v4/
+    tests/
+  v5/
+    pyproject.toml
+    src/gridlabeltool_v5/
     tests/
 ```
 

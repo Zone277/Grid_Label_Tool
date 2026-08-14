@@ -30,6 +30,7 @@ jobs:
           python -m pip install -e packages/v2
           python -m pip install -e packages/v3
           python -m pip install -e packages/v4
+          python -m pip install -e packages/v5
 
       - name: Validate v1 entrypoint
         run: python -m gridlabeltool_v1 --help
@@ -54,3 +55,9 @@ jobs:
 
       - name: Run v4 tests
         run: python -m unittest discover -s packages/v4/tests -v
+
+      - name: Validate v5 entrypoint
+        run: python -m gridlabeltool_v5 --help
+
+      - name: Run v5 tests
+        run: python -m unittest discover -s packages/v5/tests -v
