@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridlabeltool-v6"
+version = "6.0.0"
+description = "Packaged v6 of the GridLabelTool multi-scale annotation and export workflow."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
+authors = [{ name = "zxw" }]
+license = { text = "MIT" }
+
+[project.scripts]
+gridlabeltool-v6 = "gridlabeltool_v6.__main__:main"
+gridlabeltool-v6-collab = "gridlabeltool_v6.collaboration_cli:main"
+gridlabeltool-v6-repair = "gridlabeltool_v6.repair_split_mixed_output:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gridlabeltool_v6 = ["config.json"]
+

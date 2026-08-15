@@ -1,0 +1,46 @@
+{
+  "schema_version": 6,
+  "layer_options": ["0", "1", "2", "3"],
+  "layer_descriptions": {
+    "0": "背景信息",
+    "1": "单层布料",
+    "2": "多层布料-无褶皱",
+    "3": "多层布料-有褶皱"
+  },
+  "layer_colors": {
+    "0": "#9aa0a6",
+    "1": "#4caf50",
+    "2": "#2474d2",
+    "3": "#e05252"
+  },
+  "transparent_layers": ["0"],
+  "show_overlay": true,
+  "overlay_stipple": "gray25",
+  "default_base_width": 16,
+  "default_base_height": 16,
+  "link_base_dimensions": true,
+  "default_scale_specs": "1:1,2:2,3:3,4:4",
+  "aggregation_modes": {
+    "safety_first": {
+      "enabled": false,
+      "cloth": 0.25,
+      "multi": 0.3,
+      "wrinkle": 0.15
+    },
+    "balanced": {
+      "enabled": true,
+      "cloth": 0.5,
+      "multi": 0.5,
+      "wrinkle": 0.3
+    },
+    "precision_first": {
+      "enabled": false,
+      "cloth": 0.7,
+      "multi": 0.7,
+      "wrinkle": 0.5
+    },
+    "risk_priority": {
+      "enabled": false
+    }
+  }
+}
