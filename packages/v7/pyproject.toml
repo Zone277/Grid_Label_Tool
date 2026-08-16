@@ -15,10 +15,10 @@ license = { text = "MIT" }
 [project.scripts]
 gridlabeltool-v7 = "gridlabeltool_v7.__main__:main"
 gridlabeltool-v7-collab = "gridlabeltool_v7.collaboration_cli:main"
+gridlabeltool-v7-visualizer = "gridlabeltool_v7.multiscale_visualizer:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
 gridlabeltool_v7 = ["config.json"]
-

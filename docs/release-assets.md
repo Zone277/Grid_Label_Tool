@@ -109,3 +109,19 @@ asset staging folder:
 ```text
 ..\github_release_assets\GridLabelTool-v7.0.0-windows-enhanced-grid-label-tool.exe
 ```
+
+## v7 Visualizer Asset
+
+Upload the existing v7 Windows visualizer build to Release `v7.0.0` with this
+name:
+
+```text
+GridLabelTool-v7.0.0-windows-multiscale-visualizer.exe
+```
+
+The local source asset is kept outside this repository in the local release
+asset staging folder:
+
+```text
+..\github_release_assets\GridLabelTool-v7.0.0-windows-multiscale-visualizer.exe
+```
