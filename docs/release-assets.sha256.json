@@ -1,0 +1,42 @@
+﻿[
+    {
+        "File":  "GridLabelTool-v1.0.0-windows-grid-label-tool.exe",
+        "SizeMB":  37.07,
+        "SHA256":  "11EEEE2DD1BBC1F6652A87DAD2FD935720F3EC5C6102CBFD136A0D95C8F25D92"
+    },
+    {
+        "File":  "GridLabelTool-v2.0.0-windows-edit-label-tool.exe",
+        "SizeMB":  37.08,
+        "SHA256":  "630A1B7E75530CB424DECA39CCEF856B5F1CDADB35E06EBBC9F53A0149A726A6"
+    },
+    {
+        "File":  "GridLabelTool-v3.0.0-windows-enhanced-grid-label-tool.exe",
+        "SizeMB":  15.25,
+        "SHA256":  "24E00D5D42B9BE6ED0C606944F2C16192CCFBAE74B7CE7BBDDF4C060933FF405"
+    },
+    {
+        "File":  "GridLabelTool-v4.0.0-windows-enhanced-grid-label-tool.exe",
+        "SizeMB":  15.25,
+        "SHA256":  "63993BA76FF55688C1BC9348BB5681DE8BFAD7416007B8B81D226BA3E47D8A53"
+    },
+    {
+        "File":  "GridLabelTool-v5.0.0-windows-enhanced-grid-label-tool.exe",
+        "SizeMB":  240.19,
+        "SHA256":  "DBCC1C8E9E9FF934F68300872AF112E36FAC4DE7004BE07DB0462550E65293B0"
+    },
+    {
+        "File":  "GridLabelTool-v6.0.0-windows-enhanced-grid-label-tool.exe",
+        "SizeMB":  10.62,
+        "SHA256":  "6734369F2E9DC15B3D074A01372DC3FD10C74F52BE6C479CDBAB6C24ABDA1CC5"
+    },
+    {
+        "File":  "GridLabelTool-v7.0.0-windows-enhanced-grid-label-tool.exe",
+        "SizeMB":  17.67,
+        "SHA256":  "98777AEDBF3A554BD249A3195E06B31DFBAB3FAD56B1681D04327BB1F8A6764B"
+    },
+    {
+        "File":  "GridLabelTool-v7.0.0-windows-multiscale-visualizer.exe",
+        "SizeMB":  11.06,
+        "SHA256":  "E8C80F4D4EBB1625A2853D1CC3E225D884966F8F4250416399549B0734ECF9A6"
+    }
+]

@@ -4,6 +4,23 @@ Executable files are published as GitHub Release attachments. They are not
 tracked in Git because they are generated binaries and some historical builds
 are too large for normal source control.
 
+## Checksums
+
+Expected file sizes and SHA256 hashes are tracked in:
+
+```text
+docs/release-assets.sha256.json
+```
+
+To verify a local release asset on Windows:
+
+```powershell
+Get-FileHash ..\github_release_assets\GridLabelTool-v7.0.0-windows-enhanced-grid-label-tool.exe -Algorithm SHA256
+```
+
+Compare the reported hash with the matching `SHA256` value in the checksum
+manifest before uploading or replacing a Release attachment.
+
 ## v1 Asset
 
 Upload the existing v1 Windows build to Release `v1.0.0` with this name:
