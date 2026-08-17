@@ -6,6 +6,9 @@ helpers, metadata repair, dataset-root discovery, full/sample export generation,
 training index balancing, the multi-scale visualizer, and tests for the
 deterministic export and visualization logic.
 
+See `USAGE_AND_MULTISCALE_EXPORT.md` for the annotation workflow, v7 export
+layout, sampled/full split, training index metadata, and visualizer workflow.
+
 ## Run
 
 ```powershell
@@ -20,3 +23,7 @@ gridlabeltool-v7-visualizer
 ```powershell
 python -m unittest discover -s tests -v
 ```
+
+## Docs
+
+- `USAGE_AND_MULTISCALE_EXPORT.md`
