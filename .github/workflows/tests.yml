@@ -34,6 +34,9 @@ jobs:
           python -m pip install -e packages/v6
           python -m pip install -e packages/v7
 
+      - name: Validate release asset manifest
+        run: python scripts/validate_release_assets.py
+
       - name: Validate v1 entrypoint
         run: python -m gridlabeltool_v1 --help
 
