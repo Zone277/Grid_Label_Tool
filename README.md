@@ -124,3 +124,9 @@ packages/
 
 Windows executables are distributed through GitHub Releases instead of being
 committed to the repository.
+
+## Release Notes
+
+- `docs/release-assets.md`
+- `docs/release-assets.sha256.json`
+- `docs/build-windows.md`
